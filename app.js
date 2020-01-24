@@ -17,7 +17,7 @@ function addKitten(event) {
   let kitten = document.getElementById("kittenName").value;
   if(!kitten) return false
 
-  var catImage = 'https://robohash.org/' + kitten + '?set=set4';
+  var catImage = 'https://robohash.org/<' + kitten + '>?set=set4';
   
   console.log(catImage);
   
