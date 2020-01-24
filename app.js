@@ -60,7 +60,7 @@ function loadKittens() {
  * Draw all of the kittens to the kittens element
  */
 function drawKittens() {
-  if(!kittens.length) return
+  //if(!kittens.length) return
 
   let pre = document.querySelector('#msg pre');
 
